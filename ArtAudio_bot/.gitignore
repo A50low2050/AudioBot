@@ -1,7 +1,7 @@
 /dict
 **.idea
 ./venv
-/launch_bot.spec
+**launch_bot.spec
 /build
 **__pycache__
 **config.py
