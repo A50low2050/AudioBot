@@ -1,0 +1,9 @@
+/dict
+**.idea
+./venv
+/launch_bot.spec
+/build
+**__pycache__
+**config.py
+**launch_bot.exe
+**settings.db
