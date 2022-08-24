@@ -8,6 +8,11 @@ API_TOKEN = TOKEN
 # Create Database
 create_db()
 
+
+def launch_bot():
+    print('Бот успешно запущен')
+
+
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
