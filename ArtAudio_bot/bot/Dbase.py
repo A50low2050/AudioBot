@@ -34,8 +34,8 @@ def update_path(path, exit_path):
 
     cursor.execute(f""" UPDATE settings SET path='{path}', exit_path='{exit_path}' """)
 
-    cursor.close()
     connection.commit()
+    cursor.close()
 
 
 def select_path():
@@ -92,5 +92,5 @@ def insert_path(path, exit_path):
 
     cursor.execute(""" INSERT INTO settings VALUES(?,?)""", (path, exit_path,))
 
-    cursor.close()
     connection.commit()
+    cursor.close()
